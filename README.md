@@ -1,48 +1,41 @@
-# 🎙️ LibreTTS — Unlimited Desktop Text-to-Speech
+# 🎙️ StreamPulse by Maktasu
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-blue)](#)
-
-Una aplicación de escritorio ligera, potente y completamente **gratuita e ilimitada** para convertir texto a voz (TTS) con procesamiento de audio en tiempo real y una amplia variedad de filtros.
+**StreamPulse** es una aplicación de escritorio ligera e intuitiva diseñada para creadores de contenido y streamers de **TikTok Live**. Permite convertir los comentarios y comandos del chat en voz en tiempo real (Text-to-Speech / TTS) de manera ilimitada, gratuita y personalizable.
 
 ---
 
-## ✨ Características Principales
+## ✨ Características Destacadas
 
-* ♾️ **Uso Ilimitado:** Sin restricciones de caracteres ni suscripciones.
-* 💸 **100% Gratuito:** Pensado para creadores de contenido, desarrolladores y usuarios generales.
-* 🎛️ **Filtros de Audio Avanzados:** Modifica el tono (pitch), velocidad, modulación y efectos de voz.
-* 🗣️ **Múltiples Voces e Idiomas:** Gran selección de voces para distintas necesidades.
-* 💻 **Interfaz de Usuario Intuitiva:** Genera y exporta tus archivos de audio en pocos clics.
-* 📂 **Exportación Directa:** Guarda tus audios fácilmente en formatos estándar (MP3 / WAV).
-
----
-
-## 🖥️ Capturas de Pantalla
-
-*(Agrega aquí una imagen o GIF mostrando la interfaz de tu aplicación)*
+* ♾️ **TTS Totalmente Gratuito e Ilimitado:** Sin restricciones de caracteres ni pagos por suscripción.
+* 🛡️ **Filtros Anti-Spam y Moderación:**
+  * Filtro de repetición de letras masivas.
+  * Eliminación automática de emojis en usuario o mensaje.
+  * Modos de activación por comandos específicos (`!tts`, `.`, `/` o cualquier comentario).
+  * Control de Cooldown (tiempo de espera entre mensajes) por usuario.
+* 👥 **Control de Permisos de Usuarios:** Filtra quién puede enviar mensajes (Todos, Seguidores, Suscriptores, Moderadores o Lista Blanca).
+* ⚡ **Integración en Tiempo Real:** Motor integrado en Python con FastAPI y PyWebView para un consumo mínimo de recursos en tu PC de transmisión.
 
 ---
 
-## 🚀 Instalación y Uso
+## 🚀 Descarga e Instalación
 
-### Descargar Ejecutable (.exe)
-1. Ve a la sección de [Releases](../../releases) a la derecha.
-2. Descarga la versión más reciente para tu sistema operativo.
-3. Descomprime y ejecuta la aplicación.
+1. Ve a la sección de **[Releases / Lanzamientos](../../releases)** a la derecha de este repositorio.
+2. Descarga el archivo ejecutable `StreamPulse.exe` de la versión más reciente.
+3. Ejecuta la aplicación (no requiere instalación previa).
 
-### Ejecutar desde el Código Fuente
-Si prefieres ejecutarlo manualmente con Python:
+---
 
-```bash
-# Clonar el repositorio
-git clone [https://github.com/tu-usuario/nombre-repositorio.git](https://github.com/tu-usuario/nombre-repositorio.git)
+## 🛠️ Tecnologías Utilizadas
 
-# Entrar a la carpeta
-cd nombre-repositorio
+* **Backend:** Python, FastAPI, WebSockets, Uvicorn.
+* **Integración TikTok Live:** `TikTokLive`.
+* **Interfaz de Usuario:** `PyWebView`, HTML5/CSS3/JavaScript.
+* **Empaquetado:** PyInstaller.
 
-# Instalar dependencias
-pip install -r requirements.txt
+---
 
-# Ejecutar la aplicación
-python main.py
+## 📄 Términos y Licencia
+
+© **Maktasu**. Todos los derechos reservados.
+
+Este software se distribuye de manera gratuita únicamente para uso personal e individual. Queda prohibida la redistribución no autorizada, modificación o ingeniería inversa del software empaquetado.
